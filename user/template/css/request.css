@@ -1,0 +1,22 @@
+#request {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+#request td, #request th {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+  
+#request tr:nth-child(even){background-color: #ffffff;}
+  
+#request tr:hover {background-color: #ddd;}
+  
+#request th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #285b96;
+  color: white;
+}

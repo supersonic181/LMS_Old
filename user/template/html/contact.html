@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<script src="https://kit.fontawesome.com/6fadb10f19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="contact">
+	<div class="container">
+		<div class="contactInfo">
+			<div class="box">
+				<div class="icon"><i class="fas fa-map-marker-alt" area-hidden="true"></i></div>
+				<div class="text">
+					<h3>Address</h3>
+					<p>Bajapratap Pur,Vidyasagar Pally,Burdwan-713101</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+				<div class="text">
+					<h3>Phone</h3>
+					<p>+91 0000000000</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+				<div class="text">
+					<h3>Email</h3>
+					<p>contuctus@gmail.com</p>
+				</div>
+			</div>
+		</div>
+		<div class="contactForm">
+			<form action="../php/contact.php" method="POST">
+				<h2>Send Message</h2>
+				<div class="inputBox">
+					<label>Title</label>
+					<textarea placeholder="max 50 letter/s" maxlength="50" name="title" required></textarea>
+				</div>
+				<div class="inputBox">
+					<label>Message</label>
+					<textarea  placeholder="max 255 letter/s" maxlength="255" name="message" required></textarea>
+				</div>
+				<div class="inputBox">
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>	
+	</section>
+</body>
+</html>

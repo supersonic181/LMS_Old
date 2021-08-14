@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Library_MS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="bg-img">
+    <div class="content">
+		<header>Welcome to<br>DigiLib Central</header>
+			<form action="user/template/php/login.php" class="form_body" method="POST">
+				<div class="field">
+					<span class="fa fa-user"></span>
+					<input type="text" required placeholder="userid" name="username">
+				</div>
+				<div class="field space">
+					<span class="fa fa-lock"></span>
+					<input type="password" class="pass-key" placeholder="password" name="password" required>
+					<span class="show">SHOW</span>
+				</div>
+				<br>
+				<div class="container">
+					<div class="select-container">
+						<select name="user_type" required>
+							<option value="user">User</option>
+							<option value="librarian">Librarian</option>				  
+						</select>    
+					</div>
+				</div>
+				<div class="pass">
+					<a href="#">Forgot Password?</a>
+				</div>
+				<div class="field">
+					<input type="submit" name="submit" value="LOGIN">
+				</div>
+			</form>
+		<br>
+		<a href="user/template/html/faq.html" target="_blank">FAQ</a>
+    </div>
+</div>
+	<script type="text/javascript" src="login.js"></script>
+</body>
+</html>
+
